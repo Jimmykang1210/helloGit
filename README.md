@@ -45,4 +45,10 @@ git log
 
 ### staging 상태 확인
 git status 
+
+### 서버의 최신 소스를 다운받기
+git pull
+
+### 서버와 연결된 repo 해지
+git remote rm origin
 ```
