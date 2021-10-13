@@ -51,4 +51,23 @@ git pull
 
 ### 서버와 연결된 repo 해지
 git remote rm origin
+
+```
+
+## git cmd
+```
+## git log 확인
+git log --graph --oneline
+
+## 해당 시점으로 돌아감, 그 사이 로그 삭제
+### reset 최대한 쓰지 말 것
+git reset --hard
+git reset --soft
+git reset --mixed
+
+## 해당 시점으로 돌아감, 그 사이 로그 존재
+git resert
+
+
+
 ```
