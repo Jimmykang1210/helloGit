@@ -66,7 +66,7 @@ git reset --soft
 git reset --mixed (소스는 변경되지 않음)
 
 ## 해당 시점으로 돌아감, 그 사이 로그 존재
-git resert
+git revert
 
 1111111111111111111111111111
 
