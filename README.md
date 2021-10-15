@@ -60,11 +60,10 @@ git remote rm origin
 git log --graph --oneline
 
 ## 해당 시점으로 돌아감, 그 사이 로그 삭제
-- 기본은 소스는 변경되지 않음
 - 최대한 쓰지 말 것
 git reset --hard
 git reset --soft
-git reset --mixed
+git reset --mixed (소스는 변경되지 않음)
 
 ## 해당 시점으로 돌아감, 그 사이 로그 존재
 git resert
@@ -74,4 +73,6 @@ git resert
 22222222222222222222222222222
 
 3333333333333333333333333333
+
+444444444444444444444444444
 ```
